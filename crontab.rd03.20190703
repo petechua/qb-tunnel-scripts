@@ -1,0 +1,8 @@
+*/5 * * * * /users/mkt/petec/qb-tunnel-scripts/tunnel_us3.sh
+*/5 * * * * /users/mkt/petec/qb-tunnel-scripts/tunnel_sg1.sh
+*/5 * * * * /users/mkt/petec/qb-tunnel-scripts/tunnel_jp1.sh
+*/5 * * * * /users/mkt/petec/qb-tunnel-scripts/dialhome_us3.sh
+30 00 * * * /users/mkt/petec/qb-tunnel-scripts/killssh.sh
+0,30 * * * * /users/mkt/petec/qb-tunnel-scripts/killssh_dialhome.sh
+*/5 * * * * /users/mkt/petec/expect_scripts/clear_suspended_entries.sh >/dev/null 2>&1
+#*/5 * * * * /users/mkt/petec/expect_scripts/QCY-QB-1_clear_suspended_entries.sh
